@@ -89,7 +89,7 @@ def pingpong(n):
             if num_eights(n - 1) or (n - 1) % 8 == 0:
                 return pingpong(n - 1) + 1
             else:
-                return pingpong(n - 1) - 1''' #this kind of solution also works, but takes too much time so that you won't pass.
+                return pingpong(n - 1) - 1''' #this kind of solution works, but takes too much time so that you won't pass.
 
 
 def missing_digits(n):
